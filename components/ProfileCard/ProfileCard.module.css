@@ -1,0 +1,46 @@
+.profileSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileCard {
+  width: 100%;
+  max-width: 250px;
+  border: 1px solid var(--black);
+  border-radius: 36px;
+  overflow: hidden;
+}
+
+.profileCardFlow {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileCardImageWrapper {
+  width: 100%;
+  aspect-ratio: 1;
+  background: grey;
+}
+
+.profileCardContents {
+  font-family: sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 12px;
+}
+
+.profileName {
+  font-weight: 800;
+}
+
+.profileHandle {
+  font-weight: 600;
+}
