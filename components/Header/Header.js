@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header>
       <div>
-        <Link>
+        <Link href="/">
           <AtSymbolIcon />
         </Link>
       </div>
