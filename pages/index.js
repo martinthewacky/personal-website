@@ -11,7 +11,9 @@ function HomePage() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Header />
-      <main className={styles.main}></main>
+      <main className={styles.main}>
+        <div className={styles.mainContentFlow}></div>
+      </main>
     </div>
   );
 }

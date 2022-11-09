@@ -5,4 +5,16 @@
 .main {
   width: 100%;
   height: 100%;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContentFlow {
+  width: 100%;
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
