@@ -5,6 +5,13 @@
    Check it out here: https://css-tricks.com/notes-on-josh-comeaus-custom-css-reset/
 */
 
+:root {
+  --green: #06ba63;
+  --red: #c14953;
+  --white: #fafffd;
+  --black: #1a171c;
+}
+
 *,
 *::before,
 *::after {
