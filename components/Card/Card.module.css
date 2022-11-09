@@ -3,3 +3,9 @@
   padding: 12px;
   border: 1px solid var(--black);
 }
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    border: 1px solid var(--white);
+  }
+}
