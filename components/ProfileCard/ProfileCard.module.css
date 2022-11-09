@@ -43,3 +43,9 @@
 .profileHandle {
   font-weight: 600;
 }
+
+@media (prefers-color-scheme: dark) {
+  .profileCard {
+    border: 1px solid var(--white);
+  }
+}
