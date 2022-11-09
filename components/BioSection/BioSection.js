@@ -3,8 +3,8 @@ import styles from "./BioSection.module.css";
 
 export default function BioSection() {
   return (
-    <section>
-      <h2>BIO</h2>
+    <section className={styles.bioSection}>
+      <h2 className={styles.bioHeading}>BIO</h2>
       <Card>
         <div></div>
       </Card>
