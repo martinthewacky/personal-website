@@ -4,7 +4,7 @@ import { AtSymbolIcon } from "@heroicons/react/24/outline/AtSymbolIcon";
 import { MoonIcon } from "@heroicons/react/20/solid/MoonIcon";
 import { Bars2Icon } from "@heroicons/react/20/solid/Bars2Icon";
 
-const Header = () => {
+export default function Header() {
   return (
     <header>
       <div>
@@ -22,6 +22,4 @@ const Header = () => {
       </div>
     </header>
   );
-};
-
-export default Header;
+}
