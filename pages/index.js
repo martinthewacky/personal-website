@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Header from "../components/Header";
+
 import ProfileCard from "components/ProfileCard";
+import BioSection from "components/BioSection";
 
 import styles from "../styles/Home.module.css";
 
@@ -15,6 +17,7 @@ function HomePage() {
       <main className={styles.main}>
         <div className={styles.mainContentFlow}>
           <ProfileCard />
+          <BioSection />
         </div>
       </main>
     </div>
